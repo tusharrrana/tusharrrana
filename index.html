@@ -1,61 +1,233 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>HTML WEBSITE</title>
+  <meta name="description" content="Website's Description Here(We have to write description of our website for better SEO)">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <title>Tushar Rana 1st HTML Web</title>
 </head>
+
 <body>
   <h1>Heading</h1>
   <p>Paragraph</p>
   <!-- lorem is to generate x no of words  -->
-  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est repudiandae veritatis perspiciatis earum vel maxime, totam quas tempora harum aliquid.</p>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est repudiandae veritatis perspiciatis earum vel maxime,
+    totam quas tempora harum aliquid.</p>
   <!-- <a href="www.instagram.com">Youtube</a> -->
-<a href="http://www.instagram.com">INSTAGRAM</a>
-<br>
-<!-- Absalute url  -->
-<img src="https://imgs.search.brave.com/cu9Tj1j9X3ikCtsd7VDLKwbzrduMU4kQnzqpbvLIjtU/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9idXJz/dC5zaG9waWZ5Y2Ru/LmNvbS9waG90b3Mv/YS1kcm9wLW9mLXBp/bmstYW5kLXllbGxv/dy1wYWludC1pbi13/YXRlci5qcGc_d2lk/dGg9MTAwMCZmb3Jt/YXQ9cGpwZyZleGlm/PTAmaXB0Yz0w" alt="HD image"height="150px"width="250px">
-<br>
-<!-- REALATIVE URL -->
-<img src="image.webp" alt="photo"width="250px">
-<br>
-<b>BOLD</b>
-<br><hr>
-<U>UNDERLINE</U>
-<br><hr>
-<I>ITALIC</I>
-<br>
-<big>BIG</big>
-<br>
-<small>small</small>
-<!-- hr tag is used to draw a horizontal line -->
-<hr>
-<!-- big bold italic teeno ke under hai isliye uspe teeno ne kaam kiya italic bold un dono ke under hai isliye uspe un dono ne kaam kiya aur bold khali b ke under hai to uspe usi ne kaam kiya  -->
-<b><i><big>BIG BOLD ITALIC</big> ITALIC BOLD </i> BOLD</b>
-<!-- sup = uppr, sub = niche -->
-<p>H<sub>2</sub>SO<sub>4</sub></p>
-<p>(a+b)<sup>2</sup> = (a<sup>2</sup>+b<sup>2</sup>+2ab)
-</p>
-<pre>Text in a pre element
-  is displayed in a fixed-width
-  font, and it preserves
-  both      spaces and
-  line breaks</pre>
+  <br>
+  <!-- Absalute url  -->
+  <img
+    src="https://imgs.search.brave.com/cu9Tj1j9X3ikCtsd7VDLKwbzrduMU4kQnzqpbvLIjtU/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9idXJz/dC5zaG9waWZ5Y2Ru/LmNvbS9waG90b3Mv/YS1kcm9wLW9mLXBp/bmstYW5kLXllbGxv/dy1wYWludC1pbi13/YXRlci5qcGc_d2lk/dGg9MTAwMCZmb3Jt/YXQ9cGpwZyZleGlm/PTAmaXB0Yz0w"
+    alt="HD image" height="150px" width="250px">
+  <br>
+  <!-- REALATIVE URL -->
+  <img src="image.jpg" alt="photo" width="250px">
+  <!-- If i want to use multiple photos from a folder than i have to write it as <img src="(folder name/image name) " alt=""> -->
+  <br>
+  <b>BOLD</b>
+  <br>
+  <hr>
+  <U>UNDERLINE</U>
+  <br>
+  <hr>
+  <I>ITALIC</I>
+  <br>
+  <big>BIG</big>
+  <br>
+  <small>small</small>
+  <!-- hr tag is used to draw a horizontal line -->
+  <hr>
+  <!-- big bold italic teeno ke under hai isliye uspe teeno ne kaam kiya italic bold un dono ke under hai isliye uspe un dono ne kaam kiya aur bold khali b ke under hai to uspe usi ne kaam kiya  -->
+  <b><i><big>BIG BOLD ITALIC</big> ITALIC BOLD </i> BOLD</b>
+  <!-- sup = uppr, sub = niche -->
+  <p>H<sub>2</sub>SO<sub>4</sub></p>
+  <p>(a+b)<sup>2</sup> = (a<sup>2</sup>+b<sup>2</sup>+2ab)
+  </p>
+  <pre>Text in a pre element
+    is displayed in a fixed-width
+    font, and it preserves
+    both      spaces and
+    line breaks</pre>
   <pre>
-  . 
-
-
-here i'm using pre to create multiple line gap
- without using br
-  (kyuki isme hum jesa likhte hai wo wese hi render ho jata hai)
-  
-  .</pre>
+      . 
+      
+      
+      here i'm using pre to create multiple line gap
+      without using br
+      (kyuki isme hum jesa likhte hai wo wese hi render ho jata hai)
+      
+      .</pre>
   <!-- ARROWS -->
   <p>&rarr;</p>
   <p>&larr;</p>
   <p>&uarr;</p>
   <p>&darr;</p>
   <p>&harr;</p>
+  <!-- HEADER, FOOTER, MAIN  -->
+  <header>This is Header</header>
+  <!-- header also contain <nav></nav> tag -->
+  <main>This is Main content</main>
+  <!-- main tag (<main></main>) contain three tag <section></section>,<article></article>,<aside></aside> -->
+  <main>
+    <section>
+    </section>
+    <aside> </aside>
+    <article> </article>
+  </main>
+  <footer>This is Footer</footer><br>
+  <a href="http://www.instagram.com">INSTAGRAM</a>
+  <!-- _main help to open link  in new tab  -->
+  <p><a href="http://www.instagram.com" target="_blank">INSTAGRAM</a> &larr; Redirect to link from text</p>
+  <!-- You can also use a image instead of text to open a link examplr below-->
+  <p>Redirect to link from image &rarr;<a href="https://www.instagram.com" target="_blank"><img
+        src="https://imgs.search.brave.com/mqTKZyhJeZU8sFb3-M3WuWPs5D5Y_u4Yz0PC2Y1qpHI/rs:fit:500:0:0/g:ce/aHR0cHM6Ly93d3cu/ZWRpZ2l0YWxhZ2Vu/Y3kuY29tLmF1L3dw/LWNvbnRlbnQvdXBs/b2Fkcy9uZXctSW5z/dGFncmFtLWxvZ28t/cG5nLWZ1bGwtY29s/b3VyLWdseXBoLW1l/ZGl1bS1zaXplLTQ1/MC1waXhlbHMucG5n"
+        alt="image" width="50"></a></p>
+  <br>
+  <!-- we use <div></div> div tag to create seperate divisions. div tag ke undeer hum jo bhi headind paragraph etc likhenge aur usme koi changes krenge jese ki background colour change ya kuch bhi to wo change only usi division me hoga   -->
+  <div></div>
+  <span></span>
+  <!-- <span></span> span tag is also like div tag but div is a block element it take full line space (jis line me ye hoga usme aur kuch nhi aa skta) & span is a inline element it take only necessary space(jis line me ye hoga uss line me iske alawa aur chije bhi aa skti hai) -->
 
+  <ul>
+    <li> HOME </li>
+    <li> ABOUT </li>
+    <li> SUPPORT </li>
+    <li> CONTACT </li>
+  </ul>
+  <ol>
+    <li> HOME </li>
+    <li> ABOUT </li>
+    <li> SUPPORT </li>
+    <li> CONTACT </li>
+  </ol>
+  <!-- we can also change thier starting pointer by using (type) -->
+  <!-- example below aur ye ul aur ol dono me use hota hai -->
+  <ul type="circle">
+    <li> HOME </li>
+    <li> ABOUT </li>
+    <li> SUPPORT </li>
+    <li> CONTACT </li>
+  </ul>
+  <ol type="I">
+    <li> HOME </li>
+    <li> ABOUT </li>
+    <li> SUPPORT </li>
+    <li> CONTACT </li>
+  </ol>
+
+
+  <div>
+    <table>
+      <thead>
+        <tr>
+          <th>S.No</th>
+          <th>Player</th>
+          <th>Score</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>Sachin</td>
+          <td>100</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Virat</td>
+          <td>200</td>
+        </tr>
+      </tbody>
+      <caption>This is a Table's Caption</caption>
+    </table>
+  </div>
+  <!-- Agr hume 2 ya 3 columns ke upr same heading likhni hai to hum ( <th colspan="x">Heading</th>) ese likh sakte hai  -->
+  <div>
+    <table>
+      <thead>
+        <tr>
+          <th>S.No</th>
+          <th colspan="2">Player</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>Sachin</td>
+          <td>100</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Virat</td>
+          <td>200</td>
+        </tr>
+      </tbody>
+      <caption>This is a Table's Caption</caption>
+    </table>
+  </div> <br>
+
+  <div>
+    <h1>This is a Table</h1>
+    <form action="">
+      &rarr;<input type="text" placeholder="Enter Your Name"><br>
+      &rarr;<input type="text" placeholder="Enter Your Class"><br>
+      &rarr;<input type="date"><br>
+      &rarr; <input type="file"><br>
+      &rarr;<label for="sectiona">
+        <input type="radio" value="section a" name="section" id="sectiona"> Section A
+      </label>
+      <label for="sectionb">
+        <input type="radio" value="section b" name="section" id="sectionb"> Section B
+      </label>
+      <br><br>
+
+      <!-- 1.agr do ya do se jyada radio ke name same honge to unme se ek hi option select hoga, -->
+      <!-- 2. id ki help se agr hum text per bhi click karenge to wo tab bhi select ho jayega but (for and id should be exact same) -->
+      <!-- 3. Value is used in Backend -->
+
+      <label for="Hobbiea"> &rarr; Choose Your Hobbies <br>
+        <input type="checkbox" id="Hobbiea"> Cricket
+      </label><br>
+      <label for="Hobbieb">
+        <input type="checkbox" id="Hobbieb"> Singing
+      </label><br>
+      <label for="Hobbiec">
+        <input type="checkbox" id="Hobbiec"> Reading
+      </label>
+      <br>
+
+      <textarea placeholder="Why is that your hobby? Explain." name="explain" id="explainhobby" cols="30"
+        rows="2"></textarea><br>
+
+      &rarr;<select name="car" id="car">
+        <option value="No Car">Select your car</option>
+        <option value="FORTUNER">Faartunar</option>
+        <option value="SCORPIO">Sakarpio</option>
+        <option value="AUDI">Oddy</option>
+      </select>
+    </form>
+  </div><br>
+
+  <div>
+    <iframe src="video.mp4" frameborder="0"></iframe><br>
+    <video src="video.mp4" controls loop></video>
+    
+    <figure> <figcaption>Trex Voice</figcaption>
+     <audio controls src="t-rex-roar.mp3"></audio>
+    </figure> 
+    <!-- <iframe src="t-rex-roar.mp3" frameborder="0" height="60" width="250" autoplay></iframe> &larr;<b>T-rex Voice</b><br> -->
+
+    <b>Microsoft Bing &darr;</b> <br>
+    <iframe width="800" height="450" src="https://www.bing.com" frameborder="0"></iframe><br>
+
+    <h4>My Youtube Video &darr;</h4>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/QkhqO5818xU?si=DHcQHrzWqi8qQqLK"
+      title="YouTube video player" frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen></iframe>
+  </div>
+  <nav></nav>
 </body>
+
 </html>
